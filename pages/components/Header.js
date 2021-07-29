@@ -9,7 +9,12 @@ export default ()=>{
     <a href="#default" className="logo" style={{  float: "left", color: "black", textAlign: "center", textDecoration: "none", fontSize: "18px", lineHeight: "25px", borderRadius: "4px"}}>
       <Image height="100" width="100" src={profilePic} alt="Picture of the author" />
     </a>
-    <div className="header-right" style={{margin:"10px", color:"bisque"}}>
+    <div className="header-right" style={{
+      display: "flex",
+      flexWrap: "wrap",
+      marginLeft: "auto",
+      color:"bisque"
+    }}>
       <Link href="/"><a style={{ margin: '10px', color:"bisque"}}>Home</a></Link>
       <Link href="/image-gallery"><a style={{ margin: '10px', color:"bisque"}}>Image Gallery</a></Link>
       <Link href="/interesting-facts"><a style={{ margin: '10px', color:"bisque"}}>Interesting Facts</a></Link>
