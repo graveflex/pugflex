@@ -19,10 +19,10 @@ export default function Home() {
         <Image height="100" width="100" src={profilePic} alt="Picture of the author" />
         </a>
         <div class="header-right" style={{margin:"10px"}}>
-          <a class="active" href="#home" style={{margin:"10px"}}>Home</a>
+          <Link href="/"><a style={{ margin: '10px'}}>Home</a></Link>
           <a href="#contact" style={{margin:"10px"}}>Contact</a>
           <Link href="/image-gallery"><a style={{ margin: '10px'}}>Image Gallery</a></Link>
-          <a href="/diet" style={{margin:"10px"}}>Diet</a>
+          <Link href="/diet"><a style={{ margin: '10px'}}>Diet</a></Link>
         </div>
       </div>
 
@@ -35,6 +35,8 @@ export default function Home() {
 
         <Image src={pugPic} alt="pug" width={500}
           height={500} />
+
+          <p>This is a pug fan site -- learn all about pugs</p>
 
       </main>
 
