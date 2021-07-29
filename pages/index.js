@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import profilePic from '../public/pug-icon-0.png'
 import pugPic from './../public/pug-doughnut.jpg';
 import Link from 'next/link';
+import Header from './components/Header';
 
 export default function Home() {
   return (
@@ -45,6 +46,7 @@ export default function Home() {
 
         <h3>Learn More About Pugs</h3>
 
+          <p>This is a pug fan site -- learn all about pugs</p>
 
       </main>
 
