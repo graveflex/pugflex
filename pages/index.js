@@ -15,14 +15,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
-      <main className={styles.main}>
+      <main>
       <Header />
         <h1 className={styles.title}>
           Welcome to <strong>PugFlex</strong>!
         </h1>
 
-        <h2>A fan Site about Pugs</h2>
+        <h2>A Fan Site about Pugs</h2>
         <h3 style={{ fontSize: "24px" }}>PUGS</h3>
 
 
@@ -30,9 +29,7 @@ export default function Home() {
           height={500} />
 
         <h3>Learn More About Pugs</h3>
-
-          <p>This is a pug fan site -- learn all about pugs</p>
-
+        <p>This is a pug fan site -- learn all about pugs</p>
       </main>
 
       <footer className={styles.footer} styles={{ border: "none" }}>
