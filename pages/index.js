@@ -21,9 +21,7 @@ export default function Home() {
           Welcome to <strong>PugFlex</strong>!
         </h1>
 
-        <h2>A Fan Site about Pugs</h2>
-        <h3 style={{ fontSize: "24px" }}>PUGS</h3>
-
+        <h2 style={{ fontSize: "36px" }}>A fan Site about Pugs</h2>
 
         <Image style={{ border: '3px dotted bisque' }} src={pugPic} alt="pug" width={500}
           height={500} />
