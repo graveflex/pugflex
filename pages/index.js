@@ -14,16 +14,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div class="header" style={{  width: "100%", display:"flex", border: "dashed 2px bisque", backgroundColor:"salmon", overflow: "hidden", padding: "20px 10px"}}>
-        <a href="#default" class="logo" style={{  float: "left", color: "black", textAlign: "center", padding: "12px", textDecoration: "none", fontSize: "18px", lineHeight: "25px", borderRadius: "4px"}}>
-        <Image src={profilePic} alt="Picture of the author" />
+      <div class="header" style={{  width: "100%", display:"flex", border: "dashed 2px bisque", backgroundColor:"salmon", overflow: "hidden", padding: "100px"}}>
+        <a href="#default" class="logo" style={{  float: "left", color: "black", textAlign: "center", textDecoration: "none", fontSize: "18px", lineHeight: "25px", borderRadius: "4px"}}>
+        <Image height="100" width="100" src={profilePic} alt="Picture of the author" />
         </a>
         <div class="header-right" style={{margin:"10px"}}>
           <a class="active" href="#home" style={{margin:"10px"}}>Home</a>
+<<<<<<< HEAD
           <a href="#contact" style={{margin:"10px"}}>Contact</a>
           <a href="#about" style={{margin:"10px"}}>About</a>
           <a href="#about" style={{margin:"10px"}}>About</a>
           <Link href="/image-gallery"><a style={{ margin: '10px'}}>Image Gallery</a></Link>
+=======
+          <a href="#contact" style={{margin:"10px"}}>Pugs</a>
+          <a href="/diet" style={{margin:"10px"}}>Diet</a>
+>>>>>>> 81053bbcf1d442334d25a489bf7d839b151eb61a
         </div>
       </div>
 
