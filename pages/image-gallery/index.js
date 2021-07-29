@@ -45,7 +45,7 @@ export default function ImageGallery() {
         <Image height="100" width="100" src={profilePic} alt="Picture of the author" />
         </a>
         <div class="header-right" style={{margin:"10px"}}>
-          <a class="active" href="#home" style={{margin:"10px"}}>Home</a>
+          <a class="active" href="/" style={{margin:"10px"}}>Home</a>
           <a href="#contact" style={{margin:"10px"}}>Contact</a>
           <Link href="/image-gallery"><a style={{ margin: '10px'}}>Image Gallery</a></Link>
           <a href="/diet" style={{margin:"10px"}}>Diet</a>
