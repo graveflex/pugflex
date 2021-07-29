@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default Header = () => {
   return (
   <div className="header" style={{ width: "100%", display:"flex", border: "dashed 5px bisque", backgroundColor:"salmon", overflow: "hidden", padding: "10px"}}>
-    <a href="#default" className="logo" style={{  float: "left", color: "black", textAlign: "center", textDecoration: "none", fontSize: "18px", lineHeight: "25px", borderRadius: "4px"}}>
+    <a href="/" className="logo" style={{  float: "left", color: "black", textAlign: "center", textDecoration: "none", fontSize: "18px", lineHeight: "25px", borderRadius: "4px"}}>
       <Image height="100" width="100" src={profilePic} alt="Picture of the author" />
     </a>
     <div className="header-right" style={{margin:"10px", color:"bisque"}}>
