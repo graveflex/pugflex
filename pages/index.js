@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import profilePic from '../public/pug-icon-0.png'
 import pugPic from './../public/pug-doughnut.jpg';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
           <a class="active" href="#home" style={{margin:"10px"}}>Home</a>
           <a href="#contact" style={{margin:"10px"}}>Contact</a>
           <a href="#about" style={{margin:"10px"}}>About</a>
+          <a href="#about" style={{margin:"10px"}}>About</a>
+          <Link href="/image-gallery"><a style={{ margin: '10px'}}>Image Gallery</a></Link>
         </div>
       </div>
 
