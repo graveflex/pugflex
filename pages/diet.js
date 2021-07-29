@@ -11,7 +11,7 @@ export default ()=>{
       <Header/>
       <main>
         <h1>The diet of a pug</h1>
-        <p>Follow this guide at a <a href="http://www.petpugdog.com/feeding-a-pug" style={{color:"blue"}}>related site! </a></p>
+        <p>Follow these guidelines at a <a href="http://www.petpugdog.com/feeding-a-pug" style={{color:"blue"}}>partner site! </a></p>
       </main>
   </div>
 }
