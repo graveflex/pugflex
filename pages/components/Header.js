@@ -4,7 +4,7 @@ import profilePic from '../../public/pug-icon-0.png'
 import Link from 'next/link';
 
 // eslint-disable-next-line react/display-name
-export default Header = () => {
+export default function Header() {
   return (
   <div className="header" style={{ width: "100%", display:"flex", border: "dashed 5px bisque", backgroundColor:"salmon", overflow: "hidden", padding: "10px"}}>
     <a href="/" className="logo" style={{  float: "left", color: "black", textAlign: "center", textDecoration: "none", fontSize: "18px", lineHeight: "25px", borderRadius: "4px"}}>
