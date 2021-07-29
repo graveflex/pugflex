@@ -44,11 +44,11 @@ export default function ImageGallery() {
         <a href="#default" class="logo" style={{  float: "left", color: "black", textAlign: "center", textDecoration: "none", fontSize: "18px", lineHeight: "25px", borderRadius: "4px"}}>
         <Image height="100" width="100" src={profilePic} alt="Picture of the author" />
         </a>
-        <div class="header-right" style={{margin:"10px"}}>
-          <Link href="/"><a style={{ margin: '10px'}}>Home</a></Link>
-          <a href="#contact" style={{margin:"10px"}}>Contact</a>
-          <Link href="/image-gallery"><a style={{ margin: '10px'}}>Image Gallery</a></Link>
-          <Link href="/diet"><a style={{ margin: '10px'}}>Diet</a></Link>
+        <div class="header-right" style={{margin:"10px", color:"bisque"}}>
+          <Link href="/"><a style={{ margin: '10px', color:"bisque"}}>Home</a></Link>
+          <a href="#contact" style={{margin:"10px", color:"bisque"}}>Contact</a>
+          <Link href="/image-gallery"><a style={{ margin: '10px', color:"bisque"}}>Image Gallery</a></Link>
+          <Link href="/diet"><a style={{ margin: '10px', color:"bisque"}}>Diet</a></Link>
         </div>
       </div>
 
