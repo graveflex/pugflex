@@ -40,16 +40,15 @@ export default function ImageGallery() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div class="header" style={{  width: "100%", display:"flex", border: "dashed 2px bisque", backgroundColor:"salmon", overflow: "hidden", padding: "20px 10px"}}>
-        <a href="#default" class="logo" style={{  float: "left", color: "black", textAlign: "center", padding: "12px", textDecoration: "none", fontSize: "18px", lineHeight: "25px", borderRadius: "4px"}}>
-        <Image src={profilePic} alt="Picture of the author" />
+      <div class="header" style={{ width: "100%", display:"flex", border: "dashed 5px bisque", backgroundColor:"salmon", overflow: "hidden", padding: "10px"}}>
+        <a href="#default" class="logo" style={{  float: "left", color: "black", textAlign: "center", textDecoration: "none", fontSize: "18px", lineHeight: "25px", borderRadius: "4px"}}>
+        <Image height="100" width="100" src={profilePic} alt="Picture of the author" />
         </a>
         <div class="header-right" style={{margin:"10px"}}>
           <a class="active" href="#home" style={{margin:"10px"}}>Home</a>
           <a href="#contact" style={{margin:"10px"}}>Contact</a>
-          <a href="#about" style={{margin:"10px"}}>About</a>
-          <a href="#about" style={{margin:"10px"}}>About</a>
           <Link href="/image-gallery"><a style={{ margin: '10px'}}>Image Gallery</a></Link>
+          <a href="/diet" style={{margin:"10px"}}>Diet</a>
         </div>
       </div>
 
