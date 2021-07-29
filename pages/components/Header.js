@@ -13,6 +13,8 @@ export default ()=>{
             <a href="#contact" style={{margin:"10px", color:"bisque"}}>Contact</a>
             <Link href="/image-gallery"><a style={{ margin: '10px', color:"bisque"}}>Image Gallery</a></Link>
             <Link href="/diet"><a style={{ margin: '10px', color:"bisque"}}>Diet</a></Link>
+            <Link href="/pop-culture"><a style={{ margin: '10px', color:"bisque"}}>Pop Culture</a></Link>
+
           </div>
         </div>
 }
