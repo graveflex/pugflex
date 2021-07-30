@@ -11,6 +11,10 @@ a {
   font-weight: 600;
 }
 
+.image:hover {
+  border: 3px red solid;
+}
+
 * {
   box-sizing: border-box;
 }
