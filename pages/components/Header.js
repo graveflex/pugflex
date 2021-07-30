@@ -16,11 +16,11 @@ export default function Header() {
       marginLeft: "auto",
       color:"bisque"
     }}>
-      <Link href="/"><a style={{ margin: '10px', color:"bisque"}}>Home</a></Link>
-      <Link href="/image-gallery"><a style={{ margin: '10px', color:"bisque"}}>Image Gallery</a></Link>
-      <Link href="/interesting-facts"><a style={{ margin: '10px', color:"bisque"}}>Interesting Facts</a></Link>
-      <Link href="/diet"><a style={{ margin: '10px', color:"bisque"}}>Diet</a></Link>
-      <Link href="/pop-culture"><a style={{ margin: '10px', color:"bisque"}}>Pop Culture</a></Link>
+      <Link href="/"><a style={{ margin: '10px', color:"bisque", fontSize: '20px'}}>Home</a></Link>
+      <Link href="/image-gallery"><a style={{ margin: '10px', color:"bisque", fontSize: '20px'}}>Image Gallery</a></Link>
+      <Link href="/interesting-facts"><a style={{ margin: '10px', color:"bisque", fontSize: '20px'}}>Interesting Facts</a></Link>
+      <Link href="/diet"><a style={{ margin: '10px', color:"bisque", fontSize: '20px'}}>Diet</a></Link>
+      <Link href="/pop-culture"><a style={{ margin: '10px', color:"bisque", fontSize: '20px'}}>Pop Culture</a></Link>
     </div>
   </div>
   )
