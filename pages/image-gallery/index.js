@@ -53,7 +53,7 @@ export default function ImageGallery() {
                   <Image src={src} alt={alt} layout="fill" objectFit="cover" />
                 </div>
               </Link>
-              <caption>{label}</caption>
+              <caption style={{ whiteSpace: "nowrap" }}>{label}</caption>
             </div>
           ))}
         </div>
