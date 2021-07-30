@@ -111,11 +111,9 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+  padding:100px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
