@@ -7,7 +7,7 @@ import Link from 'next/link';
 import Header from './components/Header';
 
 export default ()=>{
-  return <div style={{ backgroundColor: "salmon" }}>
+  return <div>
       <Header/>
       <main>
         <h1>The diet of a pug</h1>
