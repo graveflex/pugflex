@@ -30,7 +30,7 @@ export default function ImageGallery() {
         <div style={{ width: 300, height: 300, position: 'relative', cursor: "pointer" }}>
           <Image src={src} alt={alt} layout="fill" objectFit="cover" />
         </div>
-        <caption>{label} - {alt}</caption>
+        <caption style={{ whiteSpace: "nowrap" }}>{label} - {alt}</caption>
       </main>
     </div>
   )
