@@ -27,7 +27,7 @@ export default function ImageGallery() {
       <main>
         <h1>{label}</h1>
         <Link href="/image-gallery">Back to Image Gallery</Link>
-        <div style={{ width: 300, height: 300, position: 'relative' }}>
+        <div style={{ width: 300, height: 300, position: 'relative', cursor: "pointer" }}>
           <Image src={src} alt={alt} layout="fill" objectFit="cover" />
         </div>
         <caption>{label} - {alt}</caption>

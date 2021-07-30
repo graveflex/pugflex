@@ -49,7 +49,7 @@ export default function ImageGallery() {
           {pugs.map(({ label, src, alt, path }) => (
             <div key={label} style={{ margin: '0 0 1rem' }}>
               <Link href={`image-gallery/${path}`}>
-                <div style={{ width: 300, height: 300, position: 'relative' }}>
+                <div style={{ width: 300, height: 300, position: 'relative', cursor: "pointer" }}>
                   <Image src={src} alt={alt} layout="fill" objectFit="cover" />
                 </div>
               </Link>
