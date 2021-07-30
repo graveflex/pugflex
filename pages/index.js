@@ -28,6 +28,8 @@ export default function Home() {
 
         <h3>Learn More About Pugs</h3>
         <p>This is a pug fan site -- learn all about pugs</p>
+
+        <a href="https://sylvie008.wixsite.com/my-site-1" aria-label="eZoo">Back to Scrum Zoo</a>
       </main>
 
       <footer className={styles.footer} styles={{ border: "none" }}>
