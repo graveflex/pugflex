@@ -45,11 +45,11 @@ export default function ImageGallery() {
 
       <main>
         <h1>Image Gallery</h1>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
           {pugs.map(({ label, src, alt, path }) => (
             <div key={label} style={{ margin: '0 0 1rem' }}>
               <Link href={`image-gallery/${path}`}>
-                <div style={{ width: 300, height: 300, position: 'relative', cursor: "pointer" }}>
+                <div style={{ width: '100%', height: 300, position: 'relative', cursor: "pointer" }}>
                   <Image src={src} alt={alt} layout="fill" objectFit="cover" />
                 </div>
               </Link>
