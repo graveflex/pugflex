@@ -10,7 +10,13 @@ export default ()=>{
   return <div style={{ backgroundColor: "salmon" }}>
       <Header/>
       <main>
-        <h1>The diet of a pug</h1>
+        <h1>Good to eat:</h1>
+        <li>Donuts</li>
+        <li>Dog/Puppy Food</li>
+        <li>Meat</li>
+        <li>Grains</li>
+        <li>Veggies</li>
+        <h1>External Links</h1>
         <p>Follow these guidelines at a <a href="http://www.petpugdog.com/feeding-a-pug" style={{color:"blue"}}>partner site! </a></p>
       </main>
   </div>

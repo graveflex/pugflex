@@ -31,10 +31,14 @@ export default function ImageGallery() {
 
       <main>
         <h1>Pop Culture</h1>
-        <p>Pugs have come out in television and film, such as Frank the Pug in the film Men in Black and the follow-up series. Other films that have pugs include 12 Rounds, Marie Antoinette (2006 film), and Disney's film about Pocahontas. They have also appeared on television, in shows like: Poldark,The West Wing
-        <br/>
+        <p>Pugs have come out in television and film, such as Frank the Pug in the film Men in Black and the follow-up series.
+<br/><br/>
+        Other films that have pugs include 12 Rounds, Marie Antoinette (2006 film), and Disney's film about Pocahontas.
+<br/><br/>
+They have also appeared on television, in shows like Poldark and The West Wing
+        <br/><br/>
         Pugs have also appeared in many fictional books, like Lady Bertram's pug in Mansfield Park and in the book Pugs: God's Little Weirdos.
-        <br/>
+        <br/><br/>
         Famous people who own pugs include broadcaster Jonathan Ross and actress Jessica Alba.</p>
         <ul>
           <li>Men in Black</li>
